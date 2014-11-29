@@ -1,0 +1,18 @@
+Step 1)
+Copy the checkpoint file into SWE/build folder.
+
+Step 2)
+Modify "switchScenario" on SWE/src/examples/swe_simple.cpp line 156 to the number 3.
+
+Step 2)
+Modify "CHECKPOINT_FILE" on SWE/src/scenarios/SWE_Checkpoint.hh line 16 to the name of your checkpoint file.
+OR rename your checkpoint file to "_00.nc" in the build folder
+
+Step 3)
+Compile and rerun the simulation with the result with same paramater.
+
+e.g if you use "Checkpoint of ArtificialTsunamiScenario100x100x200x2.nc",
+use the command 
+>> ./SWE_gnu_release_none_fwave -x 100 -y 100 -t 200 -b 2 -o "../build/" <<
+
+

@@ -1,0 +1,13 @@
+name[x]x[y]x[t]x[b]
+
+[x] = number of cells on x axis
+[y] = number of cells on y axis
+
+[t] = time used for simulation
+
+[b] = boundary used for all 4 edges
+	1 = OUTFLOW
+	2 = WALL
+	3 = INFLOW
+	4 = CONNECT
+	5 = PASSIVE
